@@ -53,8 +53,8 @@
     document.querySelector(".js-result").innerHTML = result;
 
     document.querySelector(".js-moves").innerHTML = `
-          You choose <img src="Resources/${playerMove}.png" alt="${playerMove}">
-          <img src="Resources/${computerMove}.png" alt="${computerMove}">
+          You choose <img src="resources/${playerMove}.png" alt="${playerMove}">
+          <img src="resources/${computerMove}.png" alt="${computerMove}">
           Computer choose
         `;
   }
